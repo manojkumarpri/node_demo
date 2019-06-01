@@ -7,7 +7,7 @@ itemRouter
   .route('/items')
   .post(function (request, response) {
 
-    console.log('POST /items');
+    console.log('POST /items/hai from 02-06-2019');
 
     var item = new Item(request.body);
 
